@@ -274,8 +274,8 @@ h3 {
 }
 
 .formulario {
-    width: 40%;
-    height: 45%;
+    width: 40vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -283,6 +283,14 @@ h3 {
     background-color: beige;
     border-radius: 4px;
     border: 1px solid black;
+}
+
+form .mensaje{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .datos div input {
@@ -299,7 +307,6 @@ h3 {
 }
 
 .boton {
-    padding: 5px;
     background-color: rgb(195, 196, 181)
 }
 
@@ -317,9 +324,14 @@ h3 {
 
 .ubicacion {
     text-align: center;
-    margin-top: 10px;
-    padding: 5px;
     background-color: beige;
+    width: 50vw;
+    height: 60vh;
+}
+
+.ubicacion iframe {
+    width: 100%;
+    height: 80%;
 }
 
 
