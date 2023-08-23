@@ -1,0 +1,40 @@
+.contacto{
+    height: 180vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/fondo-contacto.jpg);
+    .texto{
+        font-size: 150%;
+        font-weight: bold;
+        font-style: italic;
+        text-decoration: none;
+        margin: 1%;
+        padding: 1%;
+        background-color: #a9d4b6cb;
+        text-align: center;
+        border: solid 1px black;
+    }
+    form{
+        max-width: 600px !important;
+        height: 600px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px black;
+        .radio-btns{
+            display: flex;
+            width: 60%;
+            justify-content: space-around;
+        }
+    }
+    .ubicacion{
+        text-align: center;
+        background-color: beige;
+        width: 50vw;
+        height: 60vh;
+        iframe{
+            width: 100%;
+            height: 80%;
+        }
+    }
+}

@@ -44,11 +44,7 @@ header {
     width: 50%;
 }
 
-.titulo {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 
 .bg-custom {
     background-color: #00243D;
@@ -260,9 +256,6 @@ form {
     box-shadow: 0 0 10px black;
 }
 
-.boton {
-    background-color: rgb(195, 196, 181)
-}
 
 .texto {
     font-size: 35px;

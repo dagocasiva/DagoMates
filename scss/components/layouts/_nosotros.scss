@@ -1,0 +1,42 @@
+section{
+    .infoContainer{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        p{
+            text-align: justify;
+            display: block;
+            width: 95%;
+            height: 100%;
+        }
+        img{
+            margin: auto;
+            width: 90%;
+            height: 93%;
+            max-height: 610px;
+            max-width: 580px;
+        }
+    }
+}
+section{
+    .experiencias{
+        height: 160vh;
+        max-height: 890px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        ul{
+            width: 90%;
+            margin: auto;
+            li{
+                font-size: 130%;
+            }
+        }
+        img{
+            height: 60%;
+            width: 80%;
+            margin: 15px auto;
+        }
+    }
+}
