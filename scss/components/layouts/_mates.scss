@@ -1,10 +1,10 @@
 .texto{
     h2{
         font-size: 115%;
-        font-weight: 500;
+        font-weight: nth($font-weight: 5);
     }
     p{
         font-size: 70%;
-        font-weight: 300;
+        font-weight: nth($font-weight: 3);
     }
 }

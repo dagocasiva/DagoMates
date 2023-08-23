@@ -3,60 +3,96 @@
         font-size: 100%;
         margin: 4%;
     }
-    .personalizados {
-        a {
-        font-size: 150%;
+    main{
+        .personalizados {
+            a {
+            font-size: 150%;
+            }
         }
     }
 }
 
 @media screen and (max-width: 468px) {
+    main{
     .hero{
         h2{
-            font-size: 70%;
+            font-size: 150%;
         }
         div{
             a{
-                font-size: 60%;
+                font-size: 100%;
             }
         }
     }
+    }  
 }
 
 @media screen and (max-width: 320px) { 
-    .hero{
-        p{
+    main{
+        .hero{
+            p{
             font-size: 80%;
-        }
-        div a {
-            font-size: 80%;
+            }
+            div{
+                a{
+                    font-size: 80%;
+                }
+            }
         }
     }
 }
 
 @media screen and (max-width: 900px) {
-    .infoContainer  {
-        grid-template-columns: 1fr;
-    }
-    .experiencias {
-        ul {
-            width: 100%;
-            text-decoration: none;
-            li {
-                font-size: 100%;
+    main{
+        section {
+            .infoContainer  {
+                grid-template-columns: 1fr;
             }
-        }
-        img {
-            width: 77%;
-            height: 46%;
+            .experiencias {
+                ul {
+                    width: 100%;
+                    text-decoration: none;
+                    li {
+                        font-size: 100%;
+                    }
+                }   
+                img {
+                    width: 77%;
+                    height: 46%;
+                }
+            }
         }
     }
 }
 
 @media screen and (max-width: 820px) {
-    .contacto {
-        .texto {
-        font-size: 130%;
+    main{
+        .contacto {
+            .texto {
+            font-size: 80%;
+            padding: 0.5%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 430px){
+    main {
+        section{
+            .experiencias{
+                height: 80%;
+            }
+        }
+        .texto{
+            font-size: 120%;
+        }
+        .contacto{
+            .ubicacion{
+                width: 100%;
+            }
+            .texto{
+                font-size: 60%;
+            }
         }
     }
 }

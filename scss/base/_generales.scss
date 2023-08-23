@@ -20,7 +20,7 @@ h2 {
 }
 h3 {
     font-size: 200%;
-    font-weight: bold;
+    font-weight: nth($font-weight: 4);
     font-style: italic;
     text-decoration: underline;
     margin: 20px;
