@@ -1,14 +1,12 @@
 main{
     .contacto{
         height: 180vh;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        @extend %flexbox;
         flex-direction: column;
         background-image: url(../img/fondo-contacto.jpg);
     .texto{
         font-size: 130%;
-        font-weight: nth($font-weight: 4);
+        font-weight: nth($font-weight, 4);
         font-style: italic;
         text-decoration: none;
         margin: 1%;
@@ -23,9 +21,8 @@ main{
         border-radius: 5px;
         box-shadow: 0 0 10px black;
         .radio-btns{
-            display: flex;
+            @extend %flexbox;
             width: 60%;
-            justify-content: space-around;
         }
     }
     .ubicacion{

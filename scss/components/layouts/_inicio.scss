@@ -1,9 +1,9 @@
 main{
-    background-color: $color-base;
-    font-weight: nth($font-weight: 3);
+    background: linear-gradient(45deg, #0c30496e, rgba(255,255,255,0.8435749299719888) 100%);
+    font-weight: nth($font-weight, 3);
     .hero{
         text-align: center;
-        background-image: url(../img/hero-fondo.jpg);
+        background: radial-gradient(circle, rgba(63,94,251,0.4150035014005602) 0%, rgba(0,0,0,0.711922268907563) 55%), url(../img/hero-fondo.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         color: $color-base;
@@ -24,20 +24,23 @@ main{
                 text-decoration: none;
                 color: map-get($boton, color-texto);
                 background-color: map-get($boton, color-fondo);
-                margin-top: 1%;
+                padding: 0.5em;
                 border-radius: 10px;
                 font-style: italic;
-                font-weight: nth($font-weight: 7);
+                font-weight: nth($font-weight, 7);
                 border: map-get($boton, borde-boton);
-                display: block;
+                display: inline-block;
+                transition: 1s;
+                &:hover {
+                    background-color: $color-base;
+                    color: $color-primario;
+                }
             }
         }
     }
     .personalizados{
         .todo{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+            @extend %flexbox;
             flex-wrap: wrap;
             .imagen{
                 img{

@@ -13,3 +13,10 @@ $boton:(
     color-texto: white,
     borde-boton: 1px white solid,
 );
+
+//* Extends
+%flexbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

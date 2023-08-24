@@ -1,9 +1,7 @@
 footer{
     background-color: $color-primario;
     color: $color-base;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @extend %flexbox;
     flex-wrap: wrap;
     padding: 10px;
     div{
