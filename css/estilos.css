@@ -86,9 +86,10 @@ h3 {
 
 .checkout {
   height: 80vh;
-  background-color: #00243D;
+  background-color: rgba(87, 0, 114, 0.8901960784);
   color: white;
   border-radius: 10px;
+  border: 1px solid white;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
   margin: 10px;
@@ -119,7 +120,7 @@ h3 {
 }
 
 main {
-  background: linear-gradient(45deg, rgb(0, 70, 119) 0%, rgba(0, 0, 0, 0.9136029412) 100%);
+  background: linear-gradient(45deg, rgb(112, 112, 112) 0%, rgba(0, 0, 0, 0.9136029412) 100%);
   font-weight: 300;
 }
 main .hero {
