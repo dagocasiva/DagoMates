@@ -4,6 +4,7 @@ footer{
     @extend %flexbox;
     flex-wrap: wrap;
     padding: 10px;
+    border-top: solid 1px white;
     div{
         a{
             img{

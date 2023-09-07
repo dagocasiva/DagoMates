@@ -1,5 +1,5 @@
 main{
-    background: linear-gradient(45deg, #0c30496e, rgba(255,255,255,0.8435749299719888) 100%);
+    background: linear-gradient(45deg, rgba(0,70,119,1) 0%, rgba(0,0,0,0.9136029411764706) 100%);
     font-weight: nth($font-weight, 3);
     .hero{
         text-align: center;
@@ -59,17 +59,6 @@ main{
                 p{
                 margin: 4%;
                 width: 100%;
-                }
-                a{
-                    font-size: 200%;
-                    color: map-get($boton, color-texto);
-                    background-color: map-get($boton, color-fondo);
-                    text-decoration: none;
-                    text-align: center;
-                    margin: 20px;
-                    padding: 10px;
-                    border-radius: 10px;
-                    border: map-get($boton, borde-boton);
                 }
             }
         }

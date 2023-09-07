@@ -3,6 +3,7 @@ header{
     position: sticky;
     top: 0%;
     z-index: 1;
+    border-bottom: 1px solid white;
     .bg-custom{
         background-color: $color-primario;
         div{
